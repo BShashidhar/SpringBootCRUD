@@ -4,7 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.validation.constraints.NotBlank;
 @Entity
-public class StudentEntity {
+public class Student {
 	@Id
 	//@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
